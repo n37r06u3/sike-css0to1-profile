@@ -43,6 +43,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #333;
     font-weight: 300;
+    margin-top: 0;
 }
 
 
@@ -80,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 .info-section {
     background-color: #fff;
     padding: 30px 60px;
+    overflow: hidden;
 }
 
 .whatido__skill-list{
@@ -162,10 +164,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .photos__list li img{
-    padding: 10px;
+
+    width: 100%;
 }
 .photos__list li{
     box-sizing: border-box;
+    padding: 10px;
     float: left;
     width: 25%;
 }
