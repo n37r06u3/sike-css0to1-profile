@@ -78,7 +78,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 .info-section {
-    padding: 1px;
     background-color: #fff;
     padding: 30px 60px;
 }
@@ -139,4 +138,38 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-section header {
     text-align: center;
+}
+
+
+.education-experience__list img{
+
+    width: 180px;
+    float: left;
+    margin-right:30px;
+    margin-bottom: 20px;
+
+}
+
+.education-experience__list{
+    list-style: none;
+
+}
+
+.education-experience__list li{
+    overflow: hidden;
+
+
+}
+
+.photos__list li img{
+    padding: 10px;
+}
+.photos__list li{
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+}
+.photos__list {
+    list-style: none;
+
 }
