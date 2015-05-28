@@ -177,3 +177,60 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 
 }
+.get-in-touch__list{
+    list-style: none;
+}
+
+.whatido__skill{
+    float: left;
+    width: 33.3%;;
+}
+
+.get-in-touch__list li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    border: none;
+    border-radius: 9999px;
+
+    background: #ffd524;
+
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+    box-shadow: 0 3px 0 #daae1d;
+}
+.contact form input,textarea,button{
+    padding: 8px;
+    width: 100%;
+
+}
+.contact .form-group {
+    position: relative;
+    margin-top:15px;
+}
+
+.contact form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.align-left {
+    position: absolute;
+    top: 10px;
+    left: -102%;
+    width: 100%;
+    text-align: right;
+}
+
+textarea{
+    height: 100px;
+}
