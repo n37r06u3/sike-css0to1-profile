@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 960px;
-    margin: 105px auto 0;
+    margin: 105px auto 50px;
 }
 
 .main-header {
