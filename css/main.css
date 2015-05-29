@@ -271,6 +271,9 @@ textarea{
         display: block;
 
     }
+    .education-experience header  span{
+        display: block;
+    }
     .photos__list, .get-in-touch__list{
 
         padding: 0;
