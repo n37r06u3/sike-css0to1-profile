@@ -271,12 +271,18 @@ textarea{
         display: block;
 
     }
+    .education-experience header  span{
+        display: block;
+    }
     .photos__list, .get-in-touch__list{
 
         padding: 0;
     }
     .photos__list li{
         float: none;
+        width: 100%;
+    }
+    .get-in-touch__list li img{
         width: 100%;
     }
     .get-in-touch__list li{
