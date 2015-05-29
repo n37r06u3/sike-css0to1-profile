@@ -61,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav ul li {
     margin: 15px 10px;
     display: inline-block;
-
 }
 
 
@@ -87,7 +86,6 @@ h1, h2, h3, h4, h5, h6 {
 .whatido__skill-list{
     list-style: none;
     margin-top:60px;
-
 }
 
 .whatido__skill{
@@ -234,3 +232,62 @@ h1, h2, h3, h4, h5, h6 {
 textarea{
     height: 100px;
 }
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .container {
+        width: 100%;
+    }
+    .main-header h1 {
+        font-size: 32px;
+    }
+    .main-nav ul  {
+        padding: 1px 0;
+
+    }
+    .main-nav ul li {
+        display: block;
+
+    }
+    .whatido__skill{
+        float: none;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .info-section {
+        padding: 10px;
+    }
+    .whatido__skill-list {
+        padding: 0;
+    }
+    .education-experience__list {
+        padding: 0;
+    }
+    .education-experience__list img{
+        width: 180px;
+        float: none;
+        margin: 20px auto;
+        display: block;
+
+    }
+    .photos__list, .get-in-touch__list{
+
+        padding: 0;
+    }
+    .photos__list li{
+        float: none;
+        width: 100%;
+    }
+    .get-in-touch__list li{
+        float: left;
+        width: 50%;
+    }
+     .form-group label{
+        position: static
+    }
+    .contact form {
+        width: 100%;
+    }
+}
+
