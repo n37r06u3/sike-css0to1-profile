@@ -279,6 +279,9 @@ textarea{
         float: none;
         width: 100%;
     }
+    .get-in-touch__list li img{
+        width: 100%;
+    }
     .get-in-touch__list li{
         float: left;
         width: 50%;
